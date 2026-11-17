@@ -1,0 +1,198 @@
+    @font-face {
+        font-family: 'Inter';
+        src: url(assets/font/Inter-VariableFont_opsz\,wght.ttf);
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: #CDCDCD;
+        font-family: 'Inter';
+        color: #9F9AA0;
+
+    }
+
+    #header{
+
+        .header-senai{
+                background-color: #0E5CA8;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding-bottom: 20px;
+                padding-top: 20px;
+
+
+        }
+        
+    }
+
+    #aba-cadastro{
+
+        .cadastro-text{
+            text-align: center;
+            background-color: #C9C6CF;
+            padding: 1px;
+            margin: 0px 80px;
+
+        }
+
+        .container-form{
+            background-color: #D9D9D9;
+            margin: 0px 80px;
+            padding: 20px 10px;
+
+        }
+
+        .container-colum{
+            background-color: #D2CECE;
+            margin: 10px 80px;
+            padding: 10px 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 20px;
+
+            .input-class{
+                border-radius: 20px;
+                border-color: none;
+                border: none;
+                padding: 10px 20px;
+                background-color: #eceaea;
+
+            }
+
+            .coluna-1{
+                padding: 20px;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            .coluna-2{
+                padding: 20px;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+            }
+
+            .coluna-3{
+                padding: 20px;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .select-class{
+                    text-align: center;
+                    border-radius: 20px;
+                    border: none;
+                    padding: 10px 30px;
+                    background-color: #eceaeaa1;
+
+                }
+
+            }
+
+        }
+
+        .botao-clear{
+            background-color: #BC0707;
+            border-radius: 20px;
+            color: #E9F1F6;
+            border: none;
+            padding: 10px 40px;
+
+        }
+
+        .botao-clear:hover{
+            cursor: pointer;
+            background-color: #5e0808;
+
+        }
+
+        .botao-add{
+            background-color: #0E5CA8;
+            border: none;
+            border-radius: 20px;
+            color: #E9F1F6;
+            padding: 10px 35px;
+
+        }
+
+        .botao-add:hover{
+            cursor: pointer;
+            background-color: #08315a;
+        }
+    
+
+    }
+
+    #aba-perfis{
+        .container-form{
+            background-color: #D9D9D9;
+            margin: 0px 80px;
+            padding: 20px 10px;
+
+        }
+
+        .container-colum2{
+            background-color: #D2CECE;
+            margin: 10px 80px;
+            padding: 10px 200px;
+            border-radius: 20px;
+            border: none;
+        }
+    }
+
+    .listas{
+    margin: 40px;
+    }
+    .tables{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    }  
+
+    .tables td {
+    padding: 0 7px;
+    vertical-align: middle;
+    }
+
+    .gray{
+    height: 36px;
+    background-color: #e0e0e0;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-size: 0.95rem;
+    padding: 0 12px;
+    }
+
+    .edit{
+    width: 100%;
+    height: 36px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }  
+    .delete{
+    width: 100%;
+    height: 36px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }

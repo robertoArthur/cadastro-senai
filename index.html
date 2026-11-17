@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header com logo -->
+    <header>
+        <section id="header">
+            <div class="header-senai">
+                <div class="img-senai">
+                    <img src="assets/img/senai.png" alt="senai-logo">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </header>
+
+        <!-- Cadastro -->
+    <main>
+        <section id="aba-cadastro">
+            <div class="cadastro-text">
+                <h2>CADASTRO</h2>
+            </div>
+
+            <div class="container-form">
+                <div class="container-colum">
+                    <div class="coluna-1">
+                        <input class="input-class" type="text" id="nome" placeholder="Nome">
+                        <input class="input-class" type="text" id="data-nasc" placeholder="dd/mm/aaaa">
+                        <input class="input-class" type="text" id="email" placeholder="Email">
+                        <input class="input-class" type="text" id="cep" placeholder="CEP">
+                        <div class="botao-add-div">
+                            <!-- oncliclick aqui-->
+                            <button class="botao-add">ADICIONAR</button>
+                        </div>
+                    </div>
+
+                    <div class="coluna-2">
+                        <input class="input-class" type="text" id="rua" placeholder="Rua">
+                        <input class="input-class" type="text" id="bairro" placeholder="Bairro">
+                        <input class="input-class" type="text" id="uf-cidade" placeholder="UF/Cidade">
+                        <input class="input-class" type="text" id="numero-casa" placeholder="N° da Casa">
+                        
+                        
+                    </div>
+                    
+                    <div class="coluna-3">
+                        <input class="input-class" type="text" id="complemento" placeholder="Complemento">
+                        <input class="input-class" type="text" id="turma-setor" placeholder="Turma/Setor">
+                        <input class="input-class" type="text" id="unidade-senai" placeholder="Unidade Senai">
+                        <select class="select-class">
+                            <option value="" disabled selected hidden>Vínculo com o Senai</option>
+                            <option value="instrutor">Instrutor</option>
+                            <option value="aluno">Aluno</option>
+                            <option calue="outro">Outro</option>
+                        </select>
+                        <div class="botao-clear-div">
+                            <!-- onclick aqui tambem-->
+                            <button class="botao-clear">LIMPAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--sessão regsitro-->
+    <section class="listas">
+        <table class="tables">
+        <tbody>
+        <tr>
+            <td><div class="gray">*Nome*</div></td>
+            <td><div class="gray">*CPF*</div></td>
+            <td><div class="gray">*Email*</div></td>
+            <td><div class="gray">*UF/Cidade*</div></td>
+            <td>
+                 <!--onclick-->
+                <button type="button" class="edit" title="Editar">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+            </td>
+            <td>
+                <!--onclick-->
+                <button type="button" class="delete" title="Excluir">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+    </section>
+
+
+
+</body>
+</html>
